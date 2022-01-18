@@ -10,6 +10,7 @@ The neural networks used consist of fully-connected, dense layers with tanh acti
 
 The fitness score with which the birds were ranked was calculated as follows : 
 Number_of_steps_the_bird_survived + 200 * (1- abs(y_coordinate_next_pipe - y_coordinate_bird)/room_height). 
+These scores can be seen over each birds head in white text.
 
 The best birds over all the generations were kept in the freezer and directly cloned into each next generation, to prevent complete wipe out of the generation due to unlucky generation of the pipes. These birds are shown with a red outline.
 
