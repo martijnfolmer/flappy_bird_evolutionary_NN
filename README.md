@@ -19,4 +19,7 @@ The best birds over all the generations were kept in the freezer and directly cl
 
 Feel free to use any of the code for neural networks in Gamemaker, which are under scripts/scr_NN_functions. The code can be repurposed with relative ease to use in other Evolutionary Neural Network projects (think classic Atari games or games with simple inputs/outputs like flappy bird). It should be noted that doing this in Gamemaker is not entirely efficient, so if you want to run the simulation for large projects (1000s of agents playing the same game) you are better of using Python/pygame or equivalent in C++ (Unity also has pretty good machine learning options).
 
+In order to run the gamemakerproject, first download gamemaker, then copy all folders and files except for readme and the folder readme_img. Paste it in a folder of your choosing, and open the file flappy_bird_using_neural_networks.yyp. If you want to turn it into an executable, you require a premium version of GameMaker.
+
 Thanks for reading, keep doing awesome things!
+
